@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VTT Editor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="dropZone">
+        Drop VTT file here or <label for="fileInput">click here to upload</label>
+        <input type="file" id="fileInput" style="display:none;">
+    </div>
+    <div id="editor">
+        <div id="yamlEditor" contenteditable="true"></div>
+        <div id="vttContent"></div>
+    </div>
+    <button id="mergeButton" class="floating-button" style="display: none;">Merge Selected Blocks</button>
+    <button id="addTagButton" class="floating-button">Add Tag</button>
+    <button id="saveButton" class="floating-button">Save VTT</button>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+#dropZone {
+    border: 2px dashed #ccc;
+    border-radius: 20px;
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+#editor {
+    margin-top: 20px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#yamlEditor {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    white-space: pre-wrap;
+}
+
+.vtt-block {
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.vtt-block.selected {
+    background-color: #e6f3ff;
+}
+
+.floating-button {
+    position: fixed;
+    z-index: 1000;
+}
+
+#mergeButton {
+    bottom: 20px;
+    left: 20px;
+}
+
+#addTagButton {
+    bottom: 20px;
+    right: 180px;
+}
+
+#saveButton {
+    bottom: 20px;
+    right: 100px;
+}
+
+.tags {
+    color: #007bff;
+    margin-bottom: 5px;
+}
+
+.editable {
+    min-height: 1em;
+}
